@@ -22,8 +22,8 @@ interface tokenRecipient { function receiveApproval(address _from, uint256 _valu
 contract ORMSTokenERC20 {
     string public constant _myTokeName = 'OrmusCoin';
     string public constant _mySymbol = 'ORMS';
-    uint public constant _myinitialSupply = 1000000;
-    uint8 public constant _myDecimal = 18;
+    uint public constant _myinitialSupply = 777000000;
+    uint8 public constant _myDecimal = 8;
     string public name;
     string public symbol;
     uint8 public decimals;

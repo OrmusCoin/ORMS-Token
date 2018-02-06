@@ -6,7 +6,7 @@ contract OrmusToken is StandardToken {
   string public name = 'OrmusToken';
   string public symbol = 'Orms';
   uint8 public decimals = 18;
-  uint public INITIAL_SUPPLY = 177000000;
+  uint public INITIAL_SUPPLY = 777000000;
 
   function OrmusToken() public {
     totalSupply_ = INITIAL_SUPPLY;
